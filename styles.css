@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: rgba(181, 238, 181, 0.719);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: rgb(163, 206, 206);
+    border-radius: 1rem;
+    box-shadow: 0 0 1px;
+}
+
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    border: none;
+    margin: 0 10px;
+}
+
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: rgb(96, 194, 194);
+    width: 50px;
+}
+
+#play {
+    background-color: rgba(50, 100, 50, 0.719);
+}
+
+#pause{
+    background-color: rgba(148, 86, 15, 0.959);
+}
+
+#reset{
+    background-color: rgb(129, 34, 34);
+}
